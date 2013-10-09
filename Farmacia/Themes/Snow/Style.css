@@ -1,0 +1,37 @@
+/* Snow CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SnowPageBODY{ font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SnowFormTABLE{ border: 1px double #000000; background-color: #FFFFFF; }
+.SnowFormHeaderFont{ color: #000080; font-size: 16px; font-weight: bold; }
+.SnowColumnTD { border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+.SnowFieldCaptionTD { border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; }
+.SnowDataTD{ border: 1px solid #B3CAE1; color: #000000; font-size: 13px; }
+.SnowErrorDataTD{ color: #FF0000; background-color: #FFFFFF; font-size: 13px; }
+.SnowSeparatorTD{ height: 1px; background-color: #808080; }
+.SnowAltDataTD{ border: 1px solid #B3CAE1; color: #000000; background-color: #EFF7FF; font-size: 13px; }
+.SnowFooterTD { border: 1px solid #B3CAE1; color: #000000; background-color: #EFF7FF; font-size: 13px; }
+a.SnowSorterLink:link,a.SnowSorterLink:visited{ color: #000000; font-weight: bold; text-decoration: underline; }
+a.SnowSorterLink:hover,a.SnowSorterLink:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.SnowDataLink:link,a.SnowDataLink:visited{ color: #000000; text-decoration: underline; }
+a.SnowDataLink:hover,a.SnowDataLink:active{ color: #FF0000; text-decoration: none; }
+a.SnowNavigatorLink:link,a.SnowNavigatorLink:visited{ color: #000000; font-weight: bold; text-decoration: underline; }
+a.SnowNavigatorLink:hover,a.SnowNavigatorLink:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+.SnowButton { border-bottom: 1px solid #698BB7; border-left: 1px solid #698BB7; border-right: 1px solid #698BB7; border-top: 1px solid #698BB7; background-color: #CEE3FF; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SnowInput { border-bottom: 1px double #000000; border-left: 1px double #000000; border-right: 1px double #000000; border-top: 1px double #000000; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SnowTextarea { border-bottom: 1px double #000000; border-left: 1px double #000000; border-right: 1px double #000000; border-top: 1px double #000000; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SnowSelect { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000000; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; color: #000000; font-size: 13px; }
+TD.workday { border: 1px solid #B3CAE1; color: #000000; font-size: 13px; }
+TD.weekend { border: 1px solid #B3CAE1; color: #000000; background-color: #E5F3FF; font-size: 13px; }
+TH.calendar { margin: 1px; border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; border-bottom: 1px solid #698BB7; border-left: 1px solid #698BB7; border-right: 1px solid #698BB7; border-top: 1px solid #698BB7; background-color: #CEE3FF; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.CalendarControls { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.Table { border: 1px double #000000; background-color: #FFFFFF; }

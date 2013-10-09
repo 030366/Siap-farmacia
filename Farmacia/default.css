@@ -1,0 +1,295 @@
+/* standard elements */
+html {min-height: 100%;} 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #175072;}
+a:hover {color: #FF7D00;}
+
+img {
+border: 0;
+}
+
+body {
+	/*background:  url(img/WhiteBackground.jpg) repeat-x left bottom;
+	
+	color: #00000;
+	background-attachment: fixed;*/
+
+
+}
+
+p,code,ul {padding-bottom: 1.2em;}
+
+li {list-style: none;}
+
+h1 {
+	font: normal 1.8em Tahoma,sans-serif;
+	margin-bottom: 4px;
+}
+
+h3 {
+	font: normal 1.8em Tahoma,sans-serif;
+	margin-bottom: 4px;
+}
+
+
+
+
+h1,h2,h3 {padding-top: 5px;
+}
+
+/* misc */
+.clearer {clear: both;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+/* structure */
+.container {
+	background-color: #FFF;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+	width: 780px;
+}
+
+/* header */
+.top {
+	padding: 10px 10px 0;
+}
+
+/* title */
+.header {
+	/*background-color: #fff;*/
+	font-size: 1.2em;
+	height: 105px;
+	margin: 0 auto;
+	padding: 10px 10px 5px;
+	width: 780px;
+}
+.header .left, .header .right {
+	background-color: #333;
+	color: #FFF;
+	height: 105px;	
+}
+.header .left {
+	background-color: #1D597C;
+	font: normal 2.8em "Trebuchet MS",sans-serif;
+	line-height: 105px;
+	width: 564px;
+	text-align: left;
+	background-image: url(../img/bgheader.gif);
+	background-repeat: repeat-x;
+	
+}
+.header .right {
+	overflow: auto;
+	width: 212px;
+	background-image: url(../img/bgheader_r.gif);
+	background-repeat: repeat-x;
+	background-color: #FF7D00;
+}
+.header .right p,.header .right h2 {padding: 0 16px;}
+.header .right h2 {padding-top: 16px; font: normal 1.6em "Trebuchet MS",sans-serif;}
+
+/* navigation */
+.navigation {	
+	background: #D9E1E5 url(../img/nav.jpg);
+	border: 1px solid #ffffff;
+	height: 41px;
+}
+.navigation a {
+	background: transparent url(../img/nav.jpg) left top repeat-x;
+	border-right: 1px solid #D8EBD8;
+	color: #1C455E;
+	display: block;
+	float: left;
+	font: bold 1.1em sans-serif;
+	line-height: 41px;
+	padding: 0 18px;
+	text-decoration: none;
+}
+.navigation a:hover {
+background: transparent url(../img/nav.jpg) left bottom; 
+color: #1C455E;
+}
+
+/* main */
+.main {
+	border-top: 4px solid #FFF;
+	background: url(../img/bgmain.gif) repeat-y;
+}
+
+/* sub navigation */
+.sidenav {
+	float: right;
+	width: 210px;
+}
+.sidenav h2 {
+	color: #1C455E;
+	font-size: 1em;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 12px;
+}
+.sidenav ul {
+	padding: 0;
+	border-top: 1px solid #D8EBD8;
+}
+.sidenav li {border-bottom: 1px solid #D8EBD8;}
+.sidenav li a {
+	font-size: 1.1em;
+	color: #1C455E;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+.sidenav li a:hover {
+	background-color: #EBF0F3;
+	color: #2E7198;	
+}
+
+/* content */
+.content {
+	float: left;
+	margin: 10px 0;
+	padding: 0 16px;
+	width: 531px;
+}
+.content .descr {
+	color: #1C455E;
+	font-size: 0.9em;
+	margin-bottom: 6px;
+}
+.content li {
+	margin-left: 18px;
+}
+
+.content .imgright {
+padding: 5px;
+border: 1px solid #ADD1E7;
+margin-left: 4px;
+float: right;
+}
+
+.content p
+{
+color: #9A9A9A;
+}
+
+
+/* footer */
+.footer {
+	background: url(../img/bgfooter.gif) repeat-x;
+	color: #FFF;
+	font: bold 1em sans-serif;
+	line-height: 39px;
+	text-align: center;
+}
+.footer a,.footer a:hover {color: #FFF;}
+
+
+
+CAPTION.MYTABLE
+  {
+     background-color:#8080ff;
+     color:white;
+     border-style:solid;
+     border-width:0px;
+     border-color:black;
+	
+
+  }
+
+  TABLE.MYTABLE
+  { 
+     font-family:arial;
+	 color:white;
+     font-size:10pt;
+    
+     
+     border-color:black;
+     border-width:0px;
+	
+	
+  }
+
+  TH.MYTABLE
+  {
+     font-size:10pt;
+     color:white;
+	
+  }
+
+
+  TR.MYTABLE
+  { font-family:arial;
+  
+  font-size:10pt;
+     color:white;
+	 background-color:#336699;
+
+  }
+
+  TD.MYTABLE
+  {  
+     font-size:10pt;
+
+	 background-color:#336699;
+     color:white;
+     border-style:solid;
+     border-width:1px;
+     text-align:center;
+  }
+
+  TD.FONDO
+  {  
+	font-family:arial;	
+	 font-size:9pt;
+	 background-color:#EEEECC;
+  
+  }
+  
+    TD.FONDO2
+  {  
+     
+	 background-color:#336699;
+	     
+  }
+  
+TR.FONDO
+  {  
+     
+	 background-color:#EEEECC;
+	 font-family:arial;
+	 font-size:10pt;
+    
+  }
+TR.FONDO2
+  {  
+     
+
+	 background-color:#EEEECC;
+	font-family:arial;	
+	 font-size:9pt;
+	 color:#000000;
+	 
+    
+  }
+
+  table.borders{
+      
+    -o-border-radius: 8px;
+    -icab-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -border-radius: 8px; 
+      
+  }

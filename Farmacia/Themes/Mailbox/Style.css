@@ -1,0 +1,70 @@
+/* Mailbox CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 13px;
+}
+.MailboxPageBODY {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 13px;
+	background-image: url(../../imagenes/Fondo4.jpg);
+	background-repeat: repeat;
+}
+.MailboxFormHeaderFont { color: #000000; font-size: 16px; font-weight: bold; }
+.MailboxFormTABLE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 13px;
+	padding:5;
+}
+.MailboxColumnTD { background-color: #336699; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.MailboxFieldCaptionTD { background-color: #336699; color: #FFFFFF; font-size: 16px; padding-right:10; padding-left:5; padding-bottom:5; padding-top:5; font-family:Arial, Helvetica, sans-serif; }
+.MailboxDataTD { background-color: #EEEECC; color: #000000; font-size: 18px; padding:5px; font-family:Arial, Helvetica, sans-serif; }
+.MailboxErrorDataTD { background-color: #EEEECC; color: #FF0000; font-size: 13px; }
+.MailboxSeparatorTD{ height: 1px; background-color: #EEEECC; }
+.MailboxAltDataTD{ background-color: #F5F5E2; color: #000000; font-size: 13px; }
+.MailboxFooterTD { background-color: #336699; color: #FFFFFF; font-size: 13px; }
+a.MailboxSorterLink:link,a.MailboxSorterLink:visited{ color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+a.MailboxSorterLink:hover,a.MailboxSorterLink:active{ color: #FFFF00; font-weight: bold; text-decoration: none; }
+a.MailboxDataLink:link,a.MailboxDataLink:visited{ color: #0000FF; text-decoration: underline; }
+a.MailboxDataLink:hover,a.MailboxDataLink:active{ color: #FF0000; text-decoration: none; }
+a.MailboxNavigatorLink:link,a.MailboxNavigatorLink:visited{ color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+a.MailboxNavigatorLink:hover,a.MailboxNavigatorLink:active{ color: #FFFF00; font-weight: bold; text-decoration: none; }
+.MailboxButton { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 15px; }
+.MailboxInput2 { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 16px; text-transform:uppercase; height:35; width:100;}
+.MailboxInput3 { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 16px; text-transform:uppercase; height:35; width:400;}
+.MailboxInput4 { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 16px; text-transform:uppercase; height:35; width:150;}
+.MailboxInput5 { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 16px; height:35; width:150;}
+.MailboxInput { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 16px; text-transform:uppercase; height:35; width:60;}
+.MailboxInput:hover { background-color: #6CF }
+.MailboxInput:focus { background-color: #6FF }
+.MailboxTextarea:hover { background-color: #6CF }
+.MailboxTextarea:focus { background-color: #6FF }
+.MailboxInput4:hover { background-color: #6CF }
+.MailboxInput4:focus { background-color: #6FF }
+.MailboxInput5:hover { background-color: #6CF }
+.MailboxInput5:focus { background-color: #6FF }
+.MailboxInput2:hover { background-color: #6CF }
+.MailboxInput2:focus { background-color: #6FF }
+.MailboxInputLogin { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 14px; padding:6 }
+.MailboxTextarea { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 15px; text-transform:uppercase; width:500; height:70}
+.MailboxSelect { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 15px; width:150; height:35; }
+.MailboxSelect2 { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 15px; width:350; height:35; }
+.MailboxSelect:hover { background-color:#6CF }
+.MailboxSelect:focus { background-color:#6FF }
+.MailboxSelect2:hover { background-color:#6CF }
+.MailboxSelect2:focus { background-color:#6FF }
+
+.MailboxSelectHidden { font-family: Arial, Tahoma, Helvetica, Verdana; font-size: 13px; visibility:hidden }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #0000FF; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; background-color: #336699; color: #FFFFFF; font-size: 15px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; background-color: #F5F5E2; color: #000000; font-size: 15px; }
+TD.workday { background-color: #F5F5E2; color: #000000; font-size: 13px; }
+TD.weekend { background-color: #E4E5B5; color: #000000; font-size: 13px; }
+TH.calendar { margin: 1px; background-color: #336699; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; font-family: Arial,Tahoma,Verdana,Helvetica; font-size: 15px; }
+.CalendarControls { font-family: Arial,Tahoma,Verdana,Helvetica; font-size: 15px; }

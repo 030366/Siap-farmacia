@@ -1,0 +1,37 @@
+/* Sulfur CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SulfurPageBODY{ font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.SulfurFormHeaderFont{ color: #000000; font-size: 18px; font-weight: bold; }
+.SulfurFormTABLE{ border: 1px solid #000000; background-color: #FFFFFF; }
+.SulfurColumnTD{ border-style: solid; border-width: 1px; background-color: #B29034; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.SulfurFieldCaptionTD{ border-style: outset; border-width: 1px; background-color: #E7DBBC; font-size: 13px; }
+.SulfurDataTD{ border-style: outset; border-width: 1px; background-color: #FFFFFF; font-size: 13px; }
+.SulfurErrorDataTD{ border-style: outset; border-width: 1px; background-color: #FFFFFF; color: #FF0000; font-size: 13px; }
+.SulfurSeparatorTD{ }
+.SulfurAltDataTD{ border-style: outset; border-width: 1px; background-color: #E7DBBC; font-size: 13px; }
+.SulfurFooterTD { border-style: solid; border-width: 1px; background-color: #B29034; color: #FFFFFF; font-size: 13px; }
+a.SulfurSorterLink:link,a.SulfurSorterLink:visited{ color: #FFFFFF; text-decoration: underline; }
+a.SulfurSorterLink:hover,a.SulfurSorterLink:active{ color: #000000; text-decoration: none; }
+a.SulfurDataLink:link,a.SulfurDataLink:visited{ color: #000000; text-decoration: underline; }
+a.SulfurDataLink:hover,a.SulfurDataLink:active{ color: #DC143C; text-decoration: underline; }
+a.SulfurNavigatorLink:link,a.SulfurNavigatorLink:visited{ color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+a.SulfurNavigatorLink:hover,a.SulfurNavigatorLink:active{ color: #000000; font-weight: bold; text-decoration: none; }
+.SulfurButton { border-bottom: 1px ridge; border-left: 1px ridge; border-right: 1px ridge; border-top: 1px ridge; background-color: #E7DBBC; font-weight: bold; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+.SulfurInput { border-bottom: 1px ridge; border-left: 1px ridge; border-right: 1px ridge; border-top: 1px ridge; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+.SulfurTextarea { border-bottom: 1px ridge; border-left: 1px ridge; border-right: 1px ridge; border-top: 1px ridge; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+.SulfurSelect { font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000000; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; border-style: solid; border-width: 1px; background-color: #B29034; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; background-color: #FFFFFF; font-size: 13px; }
+TD.workday { border-style: outset; border-width: 1px; background-color: #FFFFFF; font-size: 13px; }
+TD.weekend { border-style: outset; border-width: 1px; background-color: #E7DBBC; font-size: 13px; }
+TH.calendar { margin: 1px; border-style: solid; border-width: 1px; background-color: #B29034; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; border-bottom: 1px ridge; border-left: 1px ridge; border-right: 1px ridge; border-top: 1px ridge; background-color: #E7DBBC; font-weight: bold; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+.CalendarControls { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.Table { border: 1px solid #000000; background-color: #FFFFFF; }

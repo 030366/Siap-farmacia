@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menuinfo type="horz" 
+          iconImageWidth="16" 
+          iconImageHeight="16" 
+          baseOffsetY="-1" 
+          subOffsetX="-1" 
+          imagePath="xm-images" 
+          delaySubClose="500" 
+          shadowOffset="1"
+		  overlapHack="true">
+   <menu>
+      <sep/>
+      <menu labelText="Inicio     " url="../Principal/index.php">
+      </menu>
+      <sep/>
+      <menu labelText="Reportes     ">
+	      <item labelText="Consumo de medicamento por farmacia" url="../ReporteFarmacias/Rep_Farmacias.php"/>
+	      <item labelText="Reporte costo por servicio" url="../ReporteGeneral/Rep_General.php"/>
+	      <item labelText="Numero de Recetas - Costo por servicios" url="../ReportePorServiciosTodosTotales/Rep_Servicios.php"/>
+	<menu labelText="Reporte de Consumos">
+	      <item labelText="Consumo de medicamento por area" url="../ReporteGrupoTerapeuticoGral/Rep_GrupoTerapeutico.php"/>
+	      <item labelText="Consumo de medicamento por medico" url="../ReportePorMedico/Rep_Especialidad.php"/>
+	      <item labelText="Consumo de medicamento por especialidad" url="../ReportePorEspecialidadGral/Rep_Servicios.php"/>
+	      <item labelText="Consumo de medicamento por servicio" url="../ReportePorServiciosGral/Rep_Servicios.php"/>
+	      <item labelText="Consumo de medicamento general de servicios y consultas" url="../ReportePorServiciosTodos/Rep_Servicios.php"/>
+	</menu>
+	      
+	      <menu labelText="Consumo de medicamento Estupefacientes" url="">
+		      <item labelText="Estupefacientes por servicios" url="../ReporteEstupefacientesTodos/Rep_Estupefacientes.php"/>
+		      <item labelText="Estupefacientes por Medicos" url="../ReporteDetalleEstupefacientes/Rep_Especialidad.php"/>
+                      <item labelText="Estupefacientes General" url="../ReporteEstupefacientesTodosGral/Rep_Estupefacientes.php"/>
+      	      </menu>
+		<menu labelText="Reporte de Existencias de medicamentos" url=""> 
+			<item labelText="Reporte de Existencias de Farmacias" url="../ReporteExistenciasFarmacias/Rep_Existencias.php"/>
+			<item labelText="Reporte Existencias - Consumo" url="../ReporteExistenciasConsumo/Rep_Existencias.php"/> 
+	
+      	      	</menu>
+	      <item labelText="Reporte de Medicamentos proximos a vencer" url="../ReporteVencimiento/ReporteVencimientoPrincipal.php"/>
+	      <item labelText="Reporte de Medicamentos vencidos" url="../ReporteMedicinaVencida/ReporteVencimientoPrincipal.php"/>
+	<menu labelText="Reporte de Transferencias">
+	      <item labelText="Reporte de Transfernecias Internas" url="../ReporteTransferencias/ReporteTransferenciasPrincipal.php"/>
+	      <item labelText="Reporte de Transfernecias Externas" url="../ReporteTransferenciasHospitales/TransferenciasPrincipal.php"/>
+	</menu>
+	<menu labelText="Consulta de Bitacoras">
+		<item labelText="Bitacora: Ingreso de Existencias a Bodega" url="../ConsultaBitacoraIngresos/BitacoraPrincipal.php"/>
+		<item labelText="Bitacora: Despacho de Requisiciones a Farmacias" url="../ConsultaBitacoraDespachos/BitacoraPrincipal.php"/>
+	</menu>
+        <item labelText="Reporte: Medicamento con mayor consumo" url="../ReporteTopConsumos/Rep_Farmacias.php"/>  
+      </menu>
+     <sep/>
+      <menu labelText="Administracion de Medicamentos" url="">
+	      <item labelText="Ingreso de existencias" url="../ManttoExistenciasLotes/existencia.php"/>
+	      
+	      <item labelText="Descargo de existencias vencidas/averiadas" url="../ManttoExistenciasVencidas/existencia.php"/>
+	      
+	      <item labelText="Asignacion de existencias a areas" url="../ManttoExistenciasAreas/area.php"/>
+	      <item labelText="Ingreso de nuevo medicamento" url="../IngresoMedicamento/IngresoMedicamentoPrincipal.php"/>
+	      <item labelText="Transferencias de Medicamentos" url="../Transferencias/TransferenciasPrincipal.php"/>
+	      <item labelText="Dias Desabastecidos" url="../DiasDesabastecidos/Principal.php"/>
+	      <sep/>
+	      <item labelText="Transferencias de Medicamentos a Hospitales" url="../TransferenciasHospitales/TransferenciasPrincipal.php"/>
+	      <sep/>
+	      <item labelText="Ingreso de existencias vencidas" url="../ManttoExistenciasLotesVencidos/existencia.php"/>
+              <item labelText="Ajuste de Existencias" url="../AjustesExistencias/Principal.php"/> 
+	      <!-- <item labelText="Introduccion de medicamento" url="../IngresoMedicamento/IngresoMedicamentoPrincipal.php"/>
+	      <item labelText="Actualizacion de precios" url="../ActualizacionPrecios/ActualizacionPrecios.php"/>
+	      <item labelText="Actualizacion de informacion de medicamentos" url="../ActualizacionMedicina/ActualizacionMedicina.php"/>  -->
+      </menu>
+      <sep/>
+      <menu labelText="Mantenimiento de Sistema" url="">
+	 <item labelText="Ingreso de medicos/enfermeras" url="../IngresoEmpleados/IngresoEmpleados.php"/>
+	  <!--    <item labelText="Ingreso de servicios" url="../IngresoServicios/IngresoServicios.php"/>-->
+	      <menu labelText="Configuracion inicial del Sistema" url="">
+		  <item labelText="Configuracion de Farmacias" url="../MantenimientoFarmacias/MantenimientoFarmacia.php"/>
+		  <item labelText="Habilitar/Deshabilitar Medicamento" url="../HabilitarMedicamento/HabilitaCatFarmacia.php"/>
+		  <item labelText="Asignacion Medicamento por Area" url="../AsignacionMedicamentoArea/Principal.php"/>
+		      
+	      </menu>
+	      <item labelText="Actualizar codigo de medicos" url="../CodigoFarmaciaUpdate/ActualizacionPrincipal.php"/>
+	      <item labelText="Actualizar codigo de especialidades/servicios" url="../CodigoFarmaciaEspecialidadesUpdate/ActualizacionPrincipal.php"/>
+	      
+	   
+	   <menu labelText="Cierre de operaciones" url="">
+		   <item labelText="Cierre mensual" url="../Cierre/CierreMes.php"/>
+		   <item labelText="Cierre anual" url="../Cierre/Cierre.php"/>
+		   <item labelText="Eliminar Cierre" url="../EliminarCierre/Principal.php"/>
+           </menu>
+      </menu>
+      <sep/>
+      <menu labelText="Manejo de recetas Bodega" url="">
+	      <item labelText="Ingreso de recetas " url="../IngresoRecetasTodasBodega/IntroduccionRecetasPrincipal.php"/>
+	      <menu labelText="Busqueda de recetas" url="">
+		      <item labelText="Por numero de receta" url="../BusquedaRecetasBodega/BusquedaRecetas.php"/>
+		      <item labelText="Por nombre de medicamento" url="../BusquedaRecetasMedicinaBodega/BusquedaRecetas.php"/>
+           </menu>
+           <item labelText="Recetas en modificacion o no finalizadas" url="../RecetasAbiertas/RecetasAbiertasPrincipal.php"/>
+      </menu>
+      <sep/>
+      <menu labelText="Manejo de recetas [BM]" url="">
+	      <item labelText="Ingreso de recetas [BM]" url="../IngresoRecetasTodasBodegaBM/IntroduccionRecetasPrincipal.php"/>
+	      <menu labelText="Busqueda de recetas [BM]" url="">
+		      <item labelText="Por numero de receta [BM]" url="../BusquedaRecetasBodegaBM/BusquedaRecetas.php"/>
+		      <!--<item labelText="Por nombre de medicamento [BM]" url="../BusquedaRecetasMedicina/BusquedaRecetas.php"/>-->
+	      </menu>
+	      <menu labelText="Reportes de Consumo Servicio de BM">
+		      <item labelText="Consumo por Pacientes" url="../ReporteConsumoExpedienteBM/Rep_Farmacias.php"/>
+	      </menu>
+      </menu>
+      <sep/>
+      
+<!--      <menu labelText="Mantenimiento de Usuarios" url="">
+	      <item labelText="Agregar nuevo usuario" url="../MantenimientoUsuarios/NewUser.php"/>
+	      <item labelText="Actualizar ubicacion de usuario" url="../EdicionUsuarios/buscador.php"/>-->
+	      <!-- <item labelText="Control de recetas por usuario" url="../PersonalRecetas/area.php"/> -->
+	      <item labelText="Actualizar password" url="../ActualizarPassword/Actualizar.php"/>
+	      <!--<item labelText="Agregar " url="../Especiales/AgregarEspecialidad.php"/>
+	      <item labelText="Agregar Especialidades" url="../Especiales/AgregarEspecialidad.php"/>-->
+<!--       </menu> -->
+      <sep/>
+      <item labelText="Cerrar Sesion" url="../des.php"/>
+   </menu>
+</menuinfo>

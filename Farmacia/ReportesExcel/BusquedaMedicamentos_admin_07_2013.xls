@@ -1,0 +1,10 @@
+<table width="100%" border="1">
+			<tr class="FONDO2"><td colspan="7" align="center"><strong>Busqueda de Medicamento por Periodo de Entrega<br>Periodo del: 2013-02-26 al 2013-02-27</strong></td></tr>
+			<tr class="FONDO2"><td width="12%" align="center"><strong>Receta #</strong></td>
+			<td width="21%" align="center"><strong>Medicamento</strong></td>
+			<td width="12%" align="center"><strong>Cantidad de Medicamento [Unidades]</strong></td>
+			<td width="20%" align="center"><strong>Medico/Enfermera</strong></td>
+			<td width="11%" align="center"><strong>Fecha</strong></td>
+			<td width="10%" align="center"><strong>Ubicacion de Receta</strong></td>
+			<td width="14%" align="center"><strong>Digitado Por</strong></td>
+			</tr></table>

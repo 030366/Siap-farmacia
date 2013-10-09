@@ -1,0 +1,69 @@
+<table width="990" border="1">
+  <tr class="MYTABLE"><td colspan="11" align="center"><strong>HOSPITAL SAN RAFAEL SANTA TECLA</strong></td></tr>
+  <tr class="MYTABLE">
+    <td colspan="11" align="center"><strong>CONSUMO DE MEDICAMENTOS </strong></td></tr>
+	
+  <tr class="MYTABLE">
+    <td colspan="11" align="center" style="vertical-align:middle;"><strong><h2>Central</h2></strong></td>
+  </tr>
+    <tr class="MYTABLE">
+    <td colspan="11" align="center" style="vertical-align:middle;"><strong>Periodo: 05-07-2006 al 15-07-2013</strong></td></tr><tr class="MYTABLE">
+	<td colspan="11" align="center" style="background:#999999;"><strong>ANTIPARASITARIOS</strong></td>
+  </tr>
+  	 <tr class="MYTABLE">
+		<td width="66" align="center"><strong>Codigo</strong></td>
+		<td width="141" align="center"><strong>Medicamento</strong></td>
+		<td width="78" align="center"><strong>Concen.</strong></td>
+		<td width="134" align="center"><strong>Presen.</strong></td>
+		<td width="67" align="center"><strong>Recetas</strong></td>
+		<td width="67" align="center"><strong>Satis.</strong></td>
+		<td width="67" align="center"><strong>No Satis. </strong></td>
+		<td width="76" align="center"><strong>Unidad de Medida </strong></td>
+		<td width="75" align="center"><strong>Consumo</strong></td>
+		<td width="75" align="center"><strong>Precio ($) </strong></td>
+		<td width="74" align="center"><strong>Monto ($) </strong></td>
+	  </tr><tr class="FONDO2">
+			<td style="vertical-align:middle;">&nbsp;"00102010"</td>
+			<td style="vertical-align:middle">Metronidazol</td>
+			<td align="center" style="vertical-align:middle;">500 mg</td>
+			<td align="center" style="vertical-align:middle;">Tableta Oral - Empaque primario individual, protegido de la luz</td>
+			<td align="center" style="vertical-align:middle;">4</td>
+			<td align="center" style="vertical-align:middle;">4</td>
+			<td align="center" style="vertical-align:middle;">0</td>
+			<td align="center" style="vertical-align:middle;">CTO</td>
+			<td style="vertical-align:middle;" align="right">0.24</td>
+			<td style="vertical-align:middle;" align="right">Lote: 887955<br> $1.10<br></td>
+			<td align="right" style="vertical-align:middle;">0.264</td>
+		  </tr><tr class="FONDO2">
+			<td style="vertical-align:middle;">&nbsp;"00102010"</td>
+			<td style="vertical-align:middle">Metronidazol</td>
+			<td align="center" style="vertical-align:middle;">500 mg</td>
+			<td align="center" style="vertical-align:middle;">Tableta Oral - Empaque primario individual, protegido de la luz</td>
+			<td align="center" style="vertical-align:middle;">4</td>
+			<td align="center" style="vertical-align:middle;">4</td>
+			<td align="center" style="vertical-align:middle;">0</td>
+			<td align="center" style="vertical-align:middle;">CTO</td>
+			<td style="vertical-align:middle;" align="right">0.24</td>
+			<td style="vertical-align:middle;" align="right">Lote: 887955<br> $1.10<br></td>
+			<td align="right" style="vertical-align:middle;">0.264</td>
+		  </tr><tr class="FONDO2">
+      <td colspan="4" align="right"><em><strong> Total:</strong></em></td>
+	  <td align="right">8</td>
+	  <td align="right">8</td>
+	  <td align="right">0</td>
+	  <td>&nbsp;</td>
+	  <td align="right">&nbsp;</td>
+	  <td align="right">&nbsp;</td>
+		<td align="right" style="vertical-align:middle;background:#CCCCCC;"><strong>0.528</strong></td>
+	  </tr><tr class="MYTABLE">
+      <td colspan="4" align="right"><em><strong> Total:</strong></em></td>
+	  <td align="right">8</td>
+	  <td align="right">8</td>
+	  <td align="right">0</td>
+	  <td>&nbsp;</td>
+	  <td align="right">&nbsp;</td>
+	  <td align="right">&nbsp;</td>
+    <td align="right" style="vertical-align:middle;background:#999999;"><strong>0.528</strong></td>
+  </tr>
+   <tr class="MYTABLE"><td colspan="11"></td>
+</table>
