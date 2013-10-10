@@ -21,6 +21,10 @@ $usuario=$_REQUEST["usuario"];
 $contra=$_REQUEST["contra"];
 $contra=md5($contra);
 $cnx=conectar();
+if (!$cnx) {
+  echo "Ocurrio un error.\n";
+  exit;
+}
 $result3 = pg_query($cnx,"SELECT * FROM farm_usuarios where nick='$usuario' and password='$contra'");
 
 if($row = pg_fetch_array($result3, null, PGSQL_ASSOC)){
@@ -138,11 +142,11 @@ $_SESSION["nombre"]=$nombre;
 
 
 /*QUERY PARA DETERMINAR SI ESTE DIA YA SE HISO LA COMPROBACION DE EXISTENCIAS*/
-//$FechaModificacion=pg_fetch_array(pg_query("select FechaModifica from farm_modificavirtual where IdAreaModifica='$IdArea' and FechaModifica=curdate()"));
+//$FechaModificacion=pg_fetch_array(pg_query($cnx,"select FechaModifica from farm_modificavirtual where IdAreaModifica='$IdArea' and FechaModifica=curdate()"));
 
 //if($FechaModificacion[0]==NULL and $nivel=='3'){
 //$queryModifica="update farm_modificavirtual set FechaModifica=curdate() where IdAreaModifica='$IdArea'";
-//pg_query($queryModifica);
+//pg_query($cnx,$queryModifica);
 desconectar();
 ?>
 <script language="javascript">
