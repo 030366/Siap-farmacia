@@ -16,14 +16,14 @@ echo'<link rel="stylesheet" type="text/css" href="default.css" media="screen" />
 echo '<h1><img src="images/carga.gif" />INICIANDO SESION</h1>';
 ?></div>
 <?php
-include 'conexion2.php';
+include 'conexion.php';
 $usuario=$_REQUEST["usuario"];
 $contra=$_REQUEST["contra"];
 $contra=md5($contra);
 conectar();
-$result3 = pg_query("SELECT * FROM farm_usuarios where nick='$usuario' and password='$contra'");
+$result3 = mysql_query("SELECT * FROM farm_usuarios where nick='$usuario' and password='$contra'");
 
-if($row = pg_fetch_array($result3)){
+if($row = mysql_fetch_array($result3)){
 	 			 		$id=$row["IdPersonal"];         
 						$nombre=$row["Nombre"];
 						$nick=$row["nick"];
@@ -40,7 +40,7 @@ if($row = pg_fetch_array($result3)){
 					    //$NombreFarmacia=$row["Farmacia"];
 
 
-//$resp=pg_query("select Farmacia from mnt_farmacia where IdFarmacia='$farmacia'");
+//$resp=mysql_query("select Farmacia from mnt_farmacia where IdFarmacia='$farmacia'");
 echo $nombre;
 $query="select Nombre,IdTipoFarmacia,TipoExpediente from mnt_establecimiento 
         inner join mnt_modalidadxestablecimiento 
@@ -51,11 +51,11 @@ $query2="select Area from mnt_areafarmacia
         on mnt_areafarmaciaxestablecimiento.IdArea=mnt_areafarmacia.IdArea
         where mnt_areafarmaciaxestablecimiento.IdArea=$IdArea and IdEstablecimiento=$IdEstablecimiento and IdModalidad=$IdModalidad";
 
-$NombreEstablecimiento1=pg_fetch_array(pg_query($query));
-$Area=pg_fetch_array(pg_query($query2));
+$NombreEstablecimiento1=mysql_fetch_array(mysql_query($query));
+$Area=mysql_fetch_array(mysql_query($query2));
 
-pg_query("update farm_usuarios set Conectado='S' where IdPersonal=".$id);
-pg_query("update farm_usuarios set UltimaConexion=now() where IdPersonal=".$id);
+mysql_query("update farm_usuarios set Conectado='S' where IdPersonal=".$id);
+mysql_query("update farm_usuarios set UltimaConexion=now() where IdPersonal=".$id);
 
 	$NombreEstablecimiento=$NombreEstablecimiento1["Nombre"];
 	$IdTipoFarmacia=$NombreEstablecimiento1["IdTipoFarmacia"];
@@ -71,7 +71,7 @@ if($IdEstadoCuenta=='D'){?>
 	</script>
 <?php }
 
-//$row=pg_fetch_array($resp);
+//$row=mysql_fetch_array($resp);
 $_SESSION["farmacia"]='';
 
 if($nivel==1){
@@ -138,11 +138,11 @@ $_SESSION["nombre"]=$nombre;
 
 
 /*QUERY PARA DETERMINAR SI ESTE DIA YA SE HISO LA COMPROBACION DE EXISTENCIAS*/
-//$FechaModificacion=pg_fetch_array(pg_query("select FechaModifica from farm_modificavirtual where IdAreaModifica='$IdArea' and FechaModifica=curdate()"));
+//$FechaModificacion=mysql_fetch_array(mysql_query("select FechaModifica from farm_modificavirtual where IdAreaModifica='$IdArea' and FechaModifica=curdate()"));
 
 //if($FechaModificacion[0]==NULL and $nivel=='3'){
 //$queryModifica="update farm_modificavirtual set FechaModifica=curdate() where IdAreaModifica='$IdArea'";
-//pg_query($queryModifica);
+//mysql_query($queryModifica);
 desconectar();
 ?>
 <script language="javascript">

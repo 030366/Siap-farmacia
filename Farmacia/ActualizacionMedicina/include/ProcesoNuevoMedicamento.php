@@ -50,12 +50,12 @@ case 3:
 $IdMedicina=$_GET["IdMedicina"];
 $IdArea=$_GET["IdArea"];
 $queryInsert="insert into mnt_areamedicina (IdArea,IdMedicina) values('$IdArea','$IdMedicina')";
-mysql_query($queryInsert);
+pg_query($cnx,$queryInsert);
 $querySelect="select IdAreaMedicina 
 			from mnt_areamedicina
 			order by IdAreaMedicina desc
 			limit 1";
-$resp=mysql_fetch_array(mysql_query($querySelect));
+$resp=pg_fetch_array(pg_query($cnx,$querySelect),null,PGSQL_ASSOC);
 echo 'Area Asignada<br><input type="hidden" id="IdAreaMedicina" name="IdAreaMedicina" value="'.$resp[0].'">';
 break;
 
@@ -65,7 +65,7 @@ $IdArea=$_GET["IdArea"];
 $IdAreaMedicina=$_GET["IdAreaMedicina"];
 
 $queryUpdate="update mnt_areamedicina set Dispensada='$IdArea' where IdAreaMedicina='$IdAreaMedicina'";
-mysql_query($queryUpdate);
+pg_query($cnx,$queryUpdate);
 echo "OK";
 break;
 }//switch

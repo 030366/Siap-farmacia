@@ -72,7 +72,7 @@ require('../Clases/class.php');
           <option value="0">[Seleccione ...]</option>
           <?php conexion::conectar();
 		$resp=queries::UnidadMedidas();
-		while($row=mysql_fetch_array($resp)){
+		while($row=pg_fetch_array($resp,null,PGSQL_ASSOC)){
 		?>
           <option value="<?php echo $row[0];?>"><?php echo $row[1];?></option>
           <?php }?>

@@ -19,13 +19,27 @@ class conexion{
 function conectar()
 {
 	mysql_connect("localhost","farma","farm4");
-	mysql_select_db("siap");
+	mysql_select_db("siap");	
 }
 
 function desconectar()
 {
 	mysql_close();
 }
+
+function conectarp()
+{
+	$strCnx = "host=localhost port=5432 dbname=siap_reloaded user=postgres password=admin";
+	$cnx = pg_connect($strCnx) or die ("Error de conexion bananero. ". pg_last_error());
+	return $cnx;
+}
+
+
+function desconectarp($cnx)
+{
+	pg_close($cnx);
+}
+
 }//fin de la clase conexion
 /********************/
 

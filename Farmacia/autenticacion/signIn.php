@@ -164,7 +164,7 @@ echo '<span class="style1" style="color:#0000CC">Si tiene problemas con su cuent
 </div>
 </div>
 
-<form id="form1" name="form1" method="post" action="../test_con.php" onSubmit="return validar(this)">
+<form id="form1" name="form1" method="post" action="../firmando.php" onSubmit="return validar(this)">
 <div id="Layer1">
 <h1 align="center">Inicio de Sesi&oacute;n </h1>
 </div>

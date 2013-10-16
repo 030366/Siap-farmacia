@@ -62,13 +62,13 @@ require('../Clases/class.php');
 	  <option value="0">Seleccione Farmacia</option>
  	  <?php 
 	  $conexion=new conexion;
-	  $conexion->conectar();	  
-	  $resp=mysql_query("select mnt_farmacia.IdFarmacia,mnt_farmacia.Farmacia from mnt_farmacia 
+	  $cnx=$conexion->conectarp();
+	  $resp=pg_query("select mnt_farmacia.IdFarmacia,mnt_farmacia.Farmacia from mnt_farmacia 
                             inner join mnt_farmaciaxestablecimiento 
                             on mnt_farmacia.IdFarmacia=mnt_farmaciaxestablecimiento.IdFarmacia
                             where IdEstablecimiento=$IdEstablecimiento and IdModalidad=$IdModalidad");
-	  $conexion->desconectar();
-	   while($row=mysql_fetch_array($resp)){
+	  $conexion->desconectarp();
+	   while($row=pg_fetch_array($resp,null,PGSQL_ASSOC)){
 	  $IdFarmacia=$row[0];
 	  $Farmacia=$row[1];
 	  ?>
