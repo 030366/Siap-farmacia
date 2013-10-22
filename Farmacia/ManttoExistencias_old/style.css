@@ -1,0 +1,24 @@
+body{
+	margin:0 auto;
+	width:600px;
+}
+
+/*registros*/
+table.registros{
+		border:0;
+		width:100%;
+	}
+table.registros td{
+		border:0;
+	}	
+table.registros tr.titulos{
+		background:#d0d0d0;
+		text-align:center;
+		text-transform:uppercase;
+	}
+table.registros tr.row0{
+		background:#e0e0e0;
+	}
+table.registros tr.row1{
+		background:#f7f7f7;
+	}

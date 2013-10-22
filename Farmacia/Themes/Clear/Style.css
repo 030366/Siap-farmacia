@@ -1,0 +1,47 @@
+/* Clear CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.ClearPageBODY{ font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.ClearFormTABLE{
+	background-color: #DEDBDE;
+	font:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding:8
+}
+.ClearFormHeaderFont{ color: #000000; font-size: 16px; font-weight: bold; }
+.ClearFieldCaptionTD{
+	background-color: #EDEDED;
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+.ClearAltDataTD{ background-color: #FFFFFF; color: #000000; font-size: 13px; }
+.ClearColumnTD{ background-color: #E7E7E7; color: #000084; font-size: 13px; font-weight: bold; }
+.ClearDataTD{ background-color: #F7F7F7; color: #000000; font-size: 13px; }
+.ClearErrorDataTD{ background-color: #F7F7F7; color: #FF0000; font-size: 13px; font-weight: bold; }
+.ClearSeparatorTD{ height: 2px; background-color: #DEDBDE; }
+.ClearFooterTD{ background-color: #E7E7E7; color: #000084; font-size: 13px; font-weight: bold; }
+a.ClearSorterLink:link,a.ClearSorterLink:visited{ color: #000084; font-size: 13px; font-weight: bold; text-decoration: underline; }
+a.ClearSorterLink:hover,a.ClearSorterLink:active{ color: #FF0000; font-size: 13px; font-weight: bold; text-decoration: none; }
+a.ClearDataLink:link,a.ClearDataLink:visited{ color: #000084; font-size: 13px; text-decoration: underline; }
+a.ClearDataLink:hover,a.ClearDataLink:active{ color: #FF0000; font-size: 13px; text-decoration: none; }
+a.ClearNavigatorLink:link,a.ClearNavigatorLink:visited{ color: #000084; font-weight: bold; font-size: 13px; text-decoration: underline; }
+a.ClearNavigatorLink:hover,a.ClearNavigatorLink:active{ color: #FF0000; font-weight: bold; font-size: 13px; text-decoration: none; }
+.ClearButton { border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; border-top: solid 1px #000000; background-color: #EEEEEE; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; font-weight: bold; }
+.ClearInput { border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; border-top: solid 1px #000000; background-color: #FFFFFF; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.ClearTextarea { border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; border-top: solid 1px #000000; background-color: #FFFFFF; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.ClearSelect { font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000084; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #000084; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000084; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { background-color: #E7E7E7; color: #000000; font-size: 13px; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; background-color: #FFFFFF; color: #000000; font-size: 13px; }
+TD.workday { background-color: #FFFFFF; color: #000000; font-size: 13px; }
+TD.weekend { background-color: #EEEEEE; color: #000000; font-size: 13px; }
+TH.calendar { margin: 1px; background-color: #E7E7E7; color: #000084; font-size: 13px; font-weight: bold; }
+.CalendarButtons { border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; border-top: solid 1px #000000; background-color: #EEEEEE; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; font-weight: bold; }
+.CalendarControls { font-family: Arial, Tahoma, Verdana, Helvetica; font-size: 13px; }
+.Table { background-color: #DEDBDE; }

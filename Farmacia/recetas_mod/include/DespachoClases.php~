@@ -1,0 +1,77 @@
+<?php
+
+class ClassFechaAtras{
+    function ObtenerFechaAtras($NombreFecha,$link){
+	switch($NombreFecha){
+		case "Monday":
+		$querySelect="select adddate(curdate(), interval -5 day) as FechaAtras";
+		$dates = mysql_query($querySelect, $link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAtras=$rowFechaA["FechaAtras"];
+		break;
+		
+		case "Tuesday":
+		$querySelect="select adddate(curdate(), interval -4 day) as FechaAtras";
+		$dates = mysql_query($querySelect, $link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAtras=$rowFechaA["FechaAtras"];
+		break;
+		
+		default:
+		$querySelect="select adddate(curdate(), interval -3 day) as FechaAtras";
+		$dates = mysql_query($querySelect, $link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAtras=$rowFechaA["FechaAtras"];
+		break;
+		
+	}//fin switch
+	return($FechaAtras);
+    }//funcion
+	
+    function Adelante($NombreFecha,$link){
+	switch($NombreFecha){
+		case "Friday":
+		$querySelect="select adddate(curdate(), interval 4 day) as FechaAdelante";//Dia Lunes
+		$dates = mysql_query($querySelect,$link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAdelante=$rowFechaA["FechaAdelante"];
+		break;
+		
+		case "Thursday":
+		$querySelect="select adddate(curdate(), interval 4 day) as FechaAdelante";//Dia martes
+		$dates = mysql_query($querySelect,$link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAdelante=$rowFechaA["FechaAdelante"];
+		break;
+		
+		default:
+		$querySelect="select adddate(curdate(), interval 2 day) as FechaAdelante";//los demas dias de la semana
+		$dates = mysql_query($querySelect,$link);
+		$rowFechaA=mysql_fetch_array($dates);
+		$FechaAdelante=$rowFechaA["FechaAdelante"];
+		break;
+	}//fin switch
+	return($FechaAdelante);
+    }//Adelante
+
+}//FechaAtrasClass
+
+
+
+
+class Despacho{
+	
+	function ObtenerReceta($IdNumeroExp){
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}//Clase Despacho
+?>

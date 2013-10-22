@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menuinfo type="horz" 
+          iconImageWidth="16" 
+          iconImageHeight="16" 
+          baseOffsetY="-1" 
+          subOffsetX="-1" 
+          imagePath="xm-images" 
+          delaySubClose="500" 
+          shadowOffset="1"
+		  overlapHack="true">
+   <menu>
+      <sep/>
+      <menu labelText="Inicio     " url="../Principal/index2.php">
+      </menu>
+      <sep/>
+      <menu labelText="Lectura y Preparacion de Recetas">
+	      <item labelText="Recetas del dia" url="../Recetas_Dia_Lectura/recetas_all.php"/>
+	 
+	      <item labelText="Recetas de dias anteriores" url="../Recetas_dia_Anterior/recetas_all.php"/>
+	      <item labelText="Recetas Repetitivas" url="../Recetas_Lectura_Repetitiva/recetas_all.php"/>
+	 
+      </menu>
+     <sep/>
+     <menu labelText="Despacho de Recetas" url="../recetas/buscador_recetas.php">
+	      <!-- <item labelText="Recetas del dia" url="../recetas/buscador_recetas.php"/>
+	      <item labelText="Recetas Repetitivas" url="../recetas_repetitivas/buscador_recetas.php"/>
+		-->
+      </menu>
+      <sep/>
+      <item labelText="Verificacion de Repetitivas" url="../ConsultaRecetas/ConsultaPrincipal.php"/>
+      <sep/>
+      <menu labelText="Actualizar password" url="../ActualizarPassword/Actualizar.php"/>
+        <sep/>
+      <item labelText="Cerrar Sesion" url="../des.php"/>
+   </menu>
+</menuinfo>

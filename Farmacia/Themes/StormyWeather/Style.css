@@ -1,0 +1,37 @@
+/* StormyWeather CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px;font-weight:bold }
+.StormyWeatherPageBODY{ font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.StormyWeatherFormTABLE{ border-bottom: 1px solid #7386A5; border-right: 1px solid #7386A5; border-top: 1px solid #DEE3EF; border-left: 1px solid #DEE3EF; }
+.StormyWeatherFormHeaderFont{ color: #000000; font-size: 16px; font-weight: bold; }
+.StormyWeatherFieldCaptionTD{ border-bottom: 1px solid #DEE3EF; border-right: 1px solid #DEE3EF; border-top: 1px solid #7386A5; border-left: 1px solid #7386A5; border-left: 1px solid #D6D3C6; background-color: #9CAECE; color: #FFFFFF; font-size: 16px;font: bold;}
+.StormyWeatherAltDataTD{ border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #C6CBDE; border-right: 1px solid #C6CBDE; background-color: #C1C7DE; color: #000000; font-size: 13px; }
+.StormyWeatherColumnTD{ border-bottom: 1px solid #DEE3EF; border-right: 1px solid #DEE3EF; border-top: 1px solid #7386A5; border-left: 1px solid #7386A5; background-color: #9CAECE; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.StormyWeatherDataTD{ border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #C6CBDE; border-right: 1px solid #C6CBDE; background-color: #DEE3EF; color: #000000; font-size: 13px; z-index:-1;}
+.StormyWeatherErrorDataTD{ border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #C6CBDE; border-right: 1px solid #C6CBDE; background-color: #DEE3EF; color: #FF0000; font-size: 13px; }
+.StormyWeatherSeparatorTD{ height: 0px; }
+.StormyWeatherFooterTD{ border-bottom: 1px solid #DEE3EF; border-right: 1px solid #DEE3EF; border-top: 1px solid #7386A5; border-left: 1px solid #7386A5; border-left: 1px solid #63655A; background-color: #9CAECE; color: #FFFFFF; font-size: 13px; }
+a.StormyWeatherSorterLink:link,a.StormyWeatherSorterLink:visited{ color: #FFFFFF; font-size: 13px; text-decoration: underline; }
+a.StormyWeatherSorterLink:hover,a.StormyWeatherSorterLink:active{ color: #FFFFFF; font-size: 13px; text-decoration: none; }
+a.StormyWeatherDataLink:link,a.StormyWeatherDataLink:visited{ color: #000080; font-size: 13px; text-decoration: underline; }
+a.StormyWeatherDataLink:hover,a.StormyWeatherDataLink:active{ color: #000080; font-size: 13px; text-decoration: none; }
+a.StormyWeatherNavigatorLink:link,a.StormyWeatherNavigatorLink:visited{ color: #FFFFFF; font-size: 13px; font-weight: bold; text-decoration: underline; }
+a.StormyWeatherNavigatorLink:hover,a.StormyWeatherNavigatorLink:active{ color: #FFFFFF; font-size: 13px; font-weight: bold; text-decoration: none; }
+.StormyWeatherButton { border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.StormyWeatherInput { border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.StormyWeatherTextarea { border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.StormyWeatherSelect { font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000080; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; border-bottom: 1px solid #DEE3EF; border-right: 1px solid #DEE3EF; border-top: 1px solid #7386A5; border-left: 1px solid #7386A5; background-color: #9CAECE; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; background-color: #DEE3EF; color: #000000; font-size: 13px; }
+TD.workday { border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #C6CBDE; border-right: 1px solid #C6CBDE; background-color: #DEE3EF; color: #000000; font-size: 13px; }
+TD.weekend { border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-bottom: 1px solid #C6CBDE; border-right: 1px solid #C6CBDE; background-color: #C1C7DE; color: #000000; font-size: 13px; }
+TH.calendar { margin: 1px; border-bottom: 1px solid #DEE3EF; border-right: 1px solid #DEE3EF; border-top: 1px solid #7386A5; border-left: 1px solid #7386A5; background-color: #9CAECE; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000; font-size: 13px; font-family: Tahoma, Verdana, Arial, Helvetica; }
+.CalendarControls { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.Table { border-bottom: 1px solid #7386A5; border-right: 1px solid #7386A5; border-top: 1px solid #DEE3EF; border-left: 1px solid #DEE3EF; }

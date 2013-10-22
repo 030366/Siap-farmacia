@@ -1,0 +1,1 @@
+<script>window.location='autenticacion/signIn.php'</script>

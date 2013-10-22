@@ -1,0 +1,58 @@
+/* NoMarks CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 13px;
+}
+.MailboxFieldCaptionTD2 { background-color: #36C; color: #FFFFFF; font-size: 16px; padding-right:10; padding-left:5; padding-bottom:5; padding-top:5; font-family:Arial, Helvetica, sans-serif; }
+.NoMarksPageBODY{
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 16px;
+	background-image: url(../../imagenes/Fondo4.jpg);
+	background-repeat: repeat;
+	padding: 5;
+}
+.StormyWeatherInput { border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top: 1px solid #000000; font-size: 15px; font-family: Tahoma, Verdana, Arial, Helvetica; text-transform:uppercase; height:30}
+.NoMarksFormHeaderFont{ color: #000000; font-size: 18px; font-weight: bold; }
+.NoMarksFormTABLE{
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	font-size:13px
+}
+.NoMarksColumnTD{ border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size:25px; font-weight: bold; padding:8 }
+.NoMarksColumnTDhidden{ border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.NoMarksFieldCaptionTD{ border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size: 16px; font-weight: bold; }
+.NoMarksDataTD{ font-size: 16px; padding:5; font-family:Verdana, Geneva, sans-serif;  }
+.NoMarksDataTDhidden{ font-size: 13px;}
+.NoMarksErrorDataTD{ color: #FF0000; font-size: 13px; }
+.NoMarksSeparatorTD{ height: 0px; }
+.NoMarksAltDataTD{ background-color: #EEEEEE; font-size: 13px; }
+.NoMarksFooterTD { border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size: 13px; }
+a.NoMarksSorterLink:link,a.NoMarksSorterLink:visited{ color: #FFFFFF; text-decoration: underline; }
+a.NoMarksSorterLinkHidden:link,a.NoMarksSorterLink:visited{ color: #FFFFFF; text-decoration: underline;}
+a.NoMarksSorterLink:hover,a.NoMarksSorterLink:active{ color: #000000; text-decoration: none;  }
+a.NoMarksDataLink:link,a.NoMarksDataLink:visited{ color: #000080; text-decoration: underline; }
+a.NoMarksDataLink:hover,a.NoMarksDataLink:active{ color: #FF0000; text-decoration: underline; }
+a.NoMarksNavigatorLink:link,a.NoMarksNavigatorLink:visited{ color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+a.NoMarksNavigatorLink:hover,a.NoMarksNavigatorLink:active{ color: #000000; font-weight: bold; text-decoration: none; }
+.NoMarksButton { color: #FFFFFF; background-color: #0099CC; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; font-weight: bold; }
+.NoMarksInput {
+	font-size: 15px;
+	font-family:Verdana, Geneva, sans-serif;
+	height: 30px;
+}
+.NoMarksTextarea { font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+.NoMarksSelect { font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000080; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; font-size: 13px; }
+TD.workday { font-size: 13px; }
+TD.weekend { background-color: #EBEBEB; font-size: 13px; }
+TH.calendar { margin: 1px; border-left: 1px solid #FFFFFF; border-right: 1px solid #000000; border-top: 1px solid #FFFFFF; border-bottom: 1px solid #000000; background-color: #0099CC; color: #FFFFFF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; color: #FFFFFF; background-color: #0099CC; font-family: Tahoma, Arial, Verdana, Helvetica; font-size: 13px; font-weight: bold; }
+.CalendarControls { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.Table { }

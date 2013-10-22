@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menuinfo type="horz" 
+          iconImageWidth="16" 
+          iconImageHeight="16" 
+          baseOffsetY="-1" 
+          subOffsetX="-1" 
+          imagePath="xm-images" 
+          delaySubClose="500" 
+          shadowOffset="1"
+		  overlapHack="true">
+    <menu>
+        <sep/>
+        <menu labelText="Inicio     " url="../IngresoRecetasTodas/IntroduccionRecetasPrincipal.php">
+        </menu>
+        <sep/>
+        <menu labelText="Reportes     ">
+            <item labelText="Consumo de medicamento por farmacia" url="../ReporteFarmacias/Rep_Farmacias.php"/>
+            <item labelText="Reporte costo por servicio" url="../ReporteGeneral/Rep_General.php"/>
+            <item labelText="Numero de Recetas - Costo por servicios" url="../ReportePorServiciosTodosTotales/Rep_Servicios.php"/>
+            <menu labelText="Reporte de Consumos">
+                <item labelText="Consumo de medicamento por area" url="../ReporteGrupoTerapeuticoGral/Rep_GrupoTerapeutico.php"/>
+                <item labelText="Consumo de medicamento por medico" url="../ReportePorMedico/Rep_Especialidad.php"/>
+                <item labelText="Consumo de medicamento por especialidad" url="../ReportePorEspecialidadGral/Rep_Servicios.php"/>
+                <item labelText="Consumo de medicamento por servicio" url="../ReportePorServiciosGral/Rep_Servicios.php"/>
+                <item labelText="Consumo de medicamento general de servicios y consultas" url="../ReportePorServiciosTodos/Rep_Servicios.php"/>
+            </menu>
+		   
+            <menu labelText="Consumo de medicamento Estupefacientes" url="">
+                <item labelText="Estupefacientes por servicios" url="../ReporteEstupefacientesTodos/Rep_Estupefacientes.php"/>
+                <item labelText="Estupefacientes por Medicos" url="../ReporteDetalleEstupefacientes/Rep_Especialidad.php"/>
+                <item labelText="Estupefacientes General" url="../ReporteEstupefacientesTodosGral/Rep_Estupefacientes.php"/>
+            </menu>
+            <menu labelText="Reporte de Existencias de medicamentos" url=""> 
+                <item labelText="Reporte de Existencias de Farmacias" url="../ReporteExistenciasFarmacias/Rep_Existencias.php"/>
+                <item labelText="Reporte Existencias - Consumo" url="../ReporteExistenciasConsumo/Rep_Existencias.php"/> 
+			   
+            </menu>
+            <item labelText="Reporte de Medicamentos proximos a vencer" url="../ReporteVencimiento/ReporteVencimientoPrincipal.php"/>
+            <item labelText="Reporte Medicamento Proximo a Agotarse" url="../ReporteProximoAgotarse/ProximoAgotarse.php"/>
+            <menu labelText="Reporte de Transferencias">
+                <item labelText="Reporte de Transfernecias" url="../ReporteTransferencias/ReporteTransferenciasPrincipal.php"/>
+                <item labelText="Reporte de Transfernecias Externas" url="../ReporteTransferenciasHospitales/TransferenciasPrincipal.php"/>
+            </menu>
+           
+            <menu labelText="Consulta de Bitacoras">
+                <item labelText="Bitacora: Despacho de Requisiciones a Farmacias" url="../ConsultaBitacoraDespachos/BitacoraPrincipal.php"/>
+            </menu>
+           <item labelText="Reporte: Medicamento con mayor consumo" url="../ReporteTopConsumos/Rep_Farmacias.php"/>  
+           <item labelText="Reporte Ajuste de Existencias" url="../ReporteAjustesExistencias/Principal.php"/> 
+        </menu>
+        <sep/>
+        
+           
+        <menu labelText="Busqueda Recetas     ">
+            <item labelText="Por numero de receta" url="../BusquedaRecetas/BusquedaRecetas.php"/>
+            <item labelText="Por nombre de medicamento" url="../BusquedaRecetasMedicina/BusquedaRecetas.php"/>
+	    <!-- <item labelText="Correcciones de recetas" url="../Recetas_Correcciones/recetas_all.php"/> -->
+            <item labelText="Recetas en modificacion o no finalizadas" url="../RecetasAbiertas/RecetasAbiertasPrincipal.php"/>
+	     
+        </menu>
+        <sep/>
+        <menu labelText="Manejo de recetas [BM]" url="">
+            <item labelText="Ingreso de recetas [BM]" url="../IngresoRecetasTodasBM/IntroduccionRecetasPrincipal.php"/>
+            <menu labelText="Busqueda de recetas [BM]" url="">
+                <item labelText="Por numero de receta [BM]" url="../BusquedaRecetasBM/BusquedaRecetas.php"/>
+		     <!--<item labelText="Por nombre de medicamento [BM]" url="../BusquedaRecetasMedicina/BusquedaRecetas.php"/>-->
+            </menu>
+            <menu labelText="Reportes de Consumo Servicio de BM">
+                <item labelText="Consumo por Pacientes" url="../ReporteConsumoExpedienteBM/Rep_Farmacias.php"/>
+            </menu>
+        </menu>
+      
+        <sep/>
+        <menu labelText="Mantenimientos     ">
+            <item labelText="Configuracion de Farmacias" url="../MantenimientoFarmacias/MantenimientoFarmacia.php"/>
+            <item labelText="Actualizar codigo de medicos" url="../CodigoFarmaciaUpdate/ActualizacionPrincipal.php"/>
+            <item labelText="Actualizar codigo de especialidades/servicios" url="../CodigoFarmaciaEspecialidadesUpdate/ActualizacionPrincipal.php"/>
+            <item labelText="Ingreso de medicos/enfermeras" url="../IngresoEmpleados/IngresoEmpleados.php"/>
+            <menu labelText="Cierre de operaciones" url="">
+                <item labelText="Cierre mensual" url="../Cierre/CierreMes.php"/>
+                <item labelText="Cierre anual" url="../Cierre/Cierre.php"/>
+                <item labelText="Eliminar Cierre" url="../EliminarCierre/Principal.php"/>
+            </menu> 
+            <item labelText="Transferencias de Medicamentos" url="../Transferencias/TransferenciasPrincipal.php"/>
+            <item labelText="Ajuste de Existencias" url="../AjustesExistencias/Principal.php"/> 
+        </menu>
+        <sep/>
+        <menu labelText="Actualizar password" url="../ActualizarPassword/Actualizar.php"/>
+        <sep/>
+        <item labelText="Cerrar Sesion" url="../des.php"/>
+    </menu>
+</menuinfo>

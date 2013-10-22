@@ -1,0 +1,9 @@
+<table width=100%>
+<th>SERVICIO</th><th scope="col">Total</th><th scope="col">Satis.</th><th scope="col">Insat.</th> <th  scope="col">Costo($)</th><tr class="FONDO2" style="background:#CCCCCC;">
+      <td align="right"><em><strong> Total Global:</strong></em></td>
+	  <td align="right"><strong>0</strong></td>
+	  <td align="right"><strong>0</strong></td>
+	  <td align="right"><strong>0</strong></td>
+       <td align="right"><strong>0.000</strong></td>
+    </tr>
+	</table>
