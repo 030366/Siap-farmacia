@@ -1,0 +1,19 @@
+<?php
+function conectar()
+{
+<<<<<<< HEAD
+	$strCnx = "host=localhost port=5432 dbname=siap_ultimate user=postgres password=admin";
+=======
+	$strCnx = "host=localhost port=5432 dbname=siap_reloaded user=postgres password=admin";
+>>>>>>> be550e77481e2d85a7a5ba4e78ba158a6f1ce6f1
+	$cnx = pg_connect($strCnx) or die ("Error de conexion bananero. ". pg_last_error());
+	return $cnx;
+}
+
+function desconectar()
+{
+	pg_close();
+}
+?>
+
+
